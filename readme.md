@@ -10,11 +10,14 @@
 
 ## How I created the base architecture
 
-Frontend:
+Frontend (React & Vite):
 `docker run --rm --user $(id -u):$(id -g) -v $(pwd):/app -w /app node:22.14.0-alpine npm create vite@latest southernmap -- --template react-ts`
 
-Backend:
+Backend (Express):
 `https://blog.logrocket.com/how-to-set-up-node-typescript-express/#setting-path-alias-using-ts-config`
 
 Docker:
 Manually, with Stack Overflow support.
+
+Map:
+https://react-leaflet.js.org/docs/start-installation/
