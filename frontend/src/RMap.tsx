@@ -45,7 +45,7 @@ function MapContents() {
         setClickMarker({
           lat: result.geocodes.main.latitude,
           lng: result.geocodes.main.longitude,
-          description: result.name + '<br>' + result.location.formatted_address,
+          description: result.name + ' — ' + result.location.formatted_address,
         })
       })
       .catch(function (error) {
