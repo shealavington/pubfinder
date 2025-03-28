@@ -8,8 +8,7 @@ export default (req: Request, res: Response): void => {
 
   const TWO_KILOMETERS: number = 2000
 
-  // TODO: Make dynamic parameter passed through the request.
-  // Ensure input is validated and sanitized
+  // TODO: Validate inputs
   const options: AxiosRequestConfig = {
     params: {
       query: req.query.query,
